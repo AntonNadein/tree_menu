@@ -1,6 +1,8 @@
 from django.contrib import admin
 
-from tree_menu.models import TreeMenu
+from tree_menu.models import TreeMenu, Page
+
+admin.site.register(Page)
 
 
 @admin.register(TreeMenu)
