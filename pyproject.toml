@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "tree menu"
+version = "0.1.0"
+description = "tree menu for UpTrader"
+authors = ["Anton N"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
