@@ -1,14 +1,20 @@
-<li class="menu-item
-    {% if item.is_active %}active{% endif %}
-    {% if item.is_parent_active %}parent-active{% endif %}">
-
-    <a href="{{ item.item.get_url }}">{{ item.item.name }}</a>
-
+<li class="mb-1">
+    <a href="{{ item.item.get_url }}"
+       class="link-body-emphasis d-inline-flex {% if item.is_active or item.is_parent_active %}text-decoration-none{% endif %} ">
+        {{ item.item.name }}</a>
     {% if item.children %}
-    <ul class="submenu">
-        {% for child in item.children %}
-        {% include "tree_menu/tags/menu_item.html" with item=child %}
-        {% endfor %}
-    </ul>
+    <button class="btn btn-toggle d-inline-flex align-items-center rounded border-1 collapsed"
+            data-bs-toggle="collapse" data-bs-target="#{{ item.item.id }}-collapse" aria-expanded="false">
+        >>>
+    </button>
     {% endif %}
+    <div class="collapse" id="{{ item.item.id }}-collapse" style="">
+        {% if item.children %}
+        <ul class="submenu">
+            {% for child in item.children %}
+            {% include "tree_menu/tags/menu_item.html" with item=child %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
 </li>
