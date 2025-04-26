@@ -1,4 +1,4 @@
-from django.views.generic import TemplateView, DetailView, ListView
+from django.views.generic import TemplateView, DetailView
 
 from tree_menu.models import Page
 
@@ -20,6 +20,4 @@ class PageDetail(DetailView):
 class ListDetail(TemplateView):
     """Представление страниц для проверки """
 
-    model = Page
     template_name = "tree_menu/page.html"
-    context_object_name = 'page'
