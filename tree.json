@@ -1,0 +1,186 @@
+[
+{
+    "model": "tree_menu.treemenu",
+    "pk": 10,
+    "fields": {
+        "name": "Главная страница",
+        "parent": null,
+        "menu_name": "menu_1",
+        "url": "",
+        "named_url": "tree_menu:index"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 11,
+    "fields": {
+        "name": "Страница 6",
+        "parent": 10,
+        "menu_name": "menu_1",
+        "url": "",
+        "named_url": "tree_menu:page,6"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 12,
+    "fields": {
+        "name": "Страница 7",
+        "parent": 11,
+        "menu_name": "menu_1",
+        "url": "",
+        "named_url": "tree_menu:page,7"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 13,
+    "fields": {
+        "name": "Страница 8",
+        "parent": 11,
+        "menu_name": "menu_1",
+        "url": "",
+        "named_url": "tree_menu:page,8"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 14,
+    "fields": {
+        "name": "Страница 3",
+        "parent": 13,
+        "menu_name": "menu_1",
+        "url": "",
+        "named_url": "tree_menu:page,3"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 15,
+    "fields": {
+        "name": "Страница 9",
+        "parent": 14,
+        "menu_name": "menu_1",
+        "url": "",
+        "named_url": "tree_menu:page,9"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 16,
+    "fields": {
+        "name": "Список страниц",
+        "parent": null,
+        "menu_name": "menu_3",
+        "url": "",
+        "named_url": "tree_menu:list"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 17,
+    "fields": {
+        "name": "Страница 1",
+        "parent": 16,
+        "menu_name": "menu_3",
+        "url": "",
+        "named_url": "tree_menu:page,1"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 18,
+    "fields": {
+        "name": "Страница 2",
+        "parent": 16,
+        "menu_name": "menu_3",
+        "url": "",
+        "named_url": "tree_menu:page,2"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 19,
+    "fields": {
+        "name": "Страница 4",
+        "parent": 18,
+        "menu_name": "menu_3",
+        "url": "",
+        "named_url": "tree_menu:page,4"
+    }
+},
+{
+    "model": "tree_menu.treemenu",
+    "pk": 20,
+    "fields": {
+        "name": "Страница 5",
+        "parent": 16,
+        "menu_name": "menu_3",
+        "url": "",
+        "named_url": "tree_menu:page,5"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 1,
+    "fields": {
+        "name": "Страница 1"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 2,
+    "fields": {
+        "name": "Страница 2"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 3,
+    "fields": {
+        "name": "Страница 3"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 4,
+    "fields": {
+        "name": "Страница 4"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 5,
+    "fields": {
+        "name": "Страница 5"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 6,
+    "fields": {
+        "name": "Страница 6"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 7,
+    "fields": {
+        "name": "Страница 7"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 8,
+    "fields": {
+        "name": "Страница 8"
+    }
+},
+{
+    "model": "tree_menu.page",
+    "pk": 9,
+    "fields": {
+        "name": "Страница 9"
+    }
+}
+]
