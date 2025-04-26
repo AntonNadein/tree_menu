@@ -1,4 +1,4 @@
-<ul class=" {{ menu_name }}">
+<ul class="{{ menu_name }}">
     {% for item in menu_tree %}
         {% include "tree_menu/tags/menu_item.html" with item=item %}
     {% endfor %}
